@@ -26,19 +26,19 @@ Open project directory
 3. **Install Dependencies**:
 Install the project dependencies using npm >> npm install
 
-4. **Create a .env File for Sensitive Data**
+4. **Create a .env File for Sensitive Data**:
 To securely store your credentials, create a .env file at the root of your project.
 This file will contain environment-specific variables that you can easily reference in your code.
 
-Steps:
-- At the root level of your project, create a .env file.
-- Add the following variables for storing login credentials:
-  EMAIL="your-email@example.com"
-  PASSWORD="your-secure-password"
+  Steps:
+  - At the root level of your project, create a .env file.
+  - Add the following variables for storing login credentials:
+    EMAIL="your-email@example.com"
+    PASSWORD="your-secure-password"
 
 ### Running Test
 1. **Open Playwright**:
 Open the Playwright UI mode >> npx playwright test --ui
 
 2. **Run tests**
-- click on spec.js or tests file to start the tests
+click on spec.js or tests file to start the tests
